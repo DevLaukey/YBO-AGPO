@@ -1153,7 +1153,7 @@ i {
 
 .landing-page .navbar-top {
     position: absolute;
-    top: 0;
+    top: 40px;
     right: 0;
     left: 0;
     z-index: 1030;
@@ -2047,6 +2047,6 @@ i {
 
 @media (min-width: 768px) {
     .landing-page .navbar-top {
-        padding-top: 10px;
+        padding-top: 0;
     }
 }

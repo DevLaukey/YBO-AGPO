@@ -29,6 +29,14 @@
 
 body {
     background-color: #CCCCCC;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .wizard-card {
+        width: 150%;
+    }
 }
 
 .section .wizard-card {

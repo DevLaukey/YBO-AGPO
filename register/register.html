@@ -26,8 +26,8 @@
     <link href="assets/css/demo.css" rel="stylesheet" />
 </head>
 
-<body>
-    <div class="image-container set-full-height" style="background-image: url('assets/img/flags.jpg')">
+<body style="background-image: url('assets/img/flags.jpg')">
+    <div class="set-full-height">
         <!--   Creative Tim Branding   -->
         <a href="http://YBOA">
             <div class="parallax-image">
@@ -47,7 +47,7 @@
         </a>
 
         <!--   Big container   -->
-        <div class="container">
+        <div class="container image-container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <!--      Wizard container        -->
@@ -194,9 +194,8 @@
                                 <div class="wizard-footer">
                                     <div class="pull-right">
                                         <input type='button' class='btn btn-next btn-fill btn-success btn-wd' name='next' value='Next' />
-                                        <input type='button' class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Finish' />
+                                        <input type='button' onclick="location.href = '../site/examples/dashboard.html'" class='btn btn-finish btn-fill btn-success btn-wd' name='finish' value='Finish' />
                                     </div>
-
                                     <div class="pull-left">
                                         <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
                                     </div>
@@ -228,5 +227,6 @@
 
 <!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
 <script src="assets/js/jquery.validate.min.js"></script>
+<script src="../assets/js/finish.js"></script>
 
 </html>

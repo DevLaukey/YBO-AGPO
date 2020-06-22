@@ -97,20 +97,22 @@
 /* sidebar */
 
 .sidenav {
+    list-style-type: none;
+    /* margin: 5px; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /* overflow: hidden; */
+    /* background-color: #333; */
     position: fixed;
-    top: 0;
+    top: 10px;
+    width: auto;
 }
 
 #mySidenav a {
-    position: absolute;
-    left: -80px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 100px;
-    text-decoration: none;
-    font-size: 20px;
     color: white;
-    border-radius: 0 5px 5px 0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 #mySidenav a:hover {
@@ -118,47 +120,67 @@
 }
 
 #about {
-    top: 20px;
+    border-radius: 25%;
+    margin-right: 15px;
     background-color: #4CAF50;
 }
 
 #partners {
-    top: 80px;
+    border-radius: 25%;
+    margin-right: 15px;
     background-color: rgb(170, 145, 63);
 }
 
 #blog {
-    top: 140px;
+    border-radius: 25%;
+    margin-right: 15px;
     background-color: #2196F3;
 }
 
 #projects {
-    top: 200px;
+    border-radius: 25%;
+    margin-right: 15px;
     background-color: #f44336;
 }
 
 #comments {
-    top: 260px;
+    border-radius: 25%;
+    margin-right: 15px;
     background-color: orange;
 }
 
 #outline {
-    top: 320px;
+    border-radius: 25%;
+    margin-right: 15px;
     background-color: purple;
 }
 
 #contact {
-    top: 380px;
+    border-radius: 25%;
+    margin-right: 15px;
     background-color: #555
 }
 
 #questions {
-    top: 440px;
+    border-radius: 25%;
+    margin-right: 15px;
     background-color: black
 }
 
 .reach {
     background-image: url("/assets/img/img/backmountain.jpg");
+}
+
+
+/* dropcap */
+
+.firstcharacter {
+    color: black;
+    float: left;
+    font-size: 75px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
 }
 
 
@@ -190,10 +212,49 @@
 }
 
 
+/* carousel */
+
+.pull-down {
+    margin-top: 25%;
+    float: left;
+    display: flex-box;
+    margin-right: 10px;
+}
+
+
+/* float top */
+
+.make-float {
+    float: left;
+    display: flexbox;
+}
+
+
+/* move the text */
+
+
 /* IPAD */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .hidden-xs {
+        display: none;
+    }
+    .log {
+        width: auto;
+    }
+}
+
+
+/* phone */
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .no-show {
         display: none;
     }
 }
