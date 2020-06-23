@@ -26,7 +26,15 @@
     <div class="container no-show navbar navbar-fixed-top" role="navigation">
         <div>
             <!-- try here -->
-            <div id="mySidenav" class="sidenav"> <a href="#about-part" id="about">About</a> <a href="#partners-part" id="partners">Partners</a> <a href="#course-part" id="blog">Course</a> <a href="#start-part" id="projects">Start</a> <a href="#testimonial-part" id="comments">Comments</a>                <a href="#gallery-part" id="outline">Gallery</a> <a href="#contact-part" id="contact">Contact</a> <a href="#footer-part" id="questions">FAQ</a>
+            <div id="mySidenav" class="sidenav">
+                <a href="#about-part" id="about">About</a>
+                <a href="#partners-part" id="partners">Partners</a>
+                <a href="#course-part" id="blog">Course</a>
+                <a href="#start-part" id="projects">Start</a>
+                <a href="#testimonial-part" id="comments">Comments</a>
+                <a href="#gallery-part" id="outline">Gallery</a>
+                <a href="#contact-part" id="contact">Contact</a>
+                <a href="#footer-part" id="questions">FAQ</a>
             </div>
         </div>
     </div>
@@ -129,21 +137,26 @@
                 <ul class="list-unstyled ">
                     <div class="row ">
                         <div class=" col-md-2  ">
-                            <img src="assets/img/img/yboa-nys.jpeg " width="100px" height="15%" />
+                            <a href="https://www.nationalyouthcouncil.go.ke/" target="_blank">
+                                <img src="assets/img/img/yboa-nys.jpeg " width="100px" height="15%" /></a>
                         </div><br>
                         <div class="col-md-2 ">
-                            <img src="assets/img/img/yboa-agpo.jpeg" width="200px" />
+                            <a href="https://agpo.go.ke/" target="_blank">
+                                <img src="assets/img/img/yboa-agpo.jpeg" width="200px" /></a>
                         </div><br>
 
                         <div class="col-md-2 " id="ppra">
-                            <img src="assets/img/img/yboa-ppra.jpeg " width="100px" />
+                            <a href="http://ppra.go.ke/" target="_blank">
+                                <img src="assets/img/img/yboa-ppra.jpeg " width="100px" /></a>
                         </div><br>
 
                         <div class="col-md-2" id="equity">
-                            <img src="assets/img/img/yboa-equity.jpeg" width="100px" />
+                            <a href="https://equitygroupholdings.com/ke/" target="_blank">
+                                <img src="assets/img/img/yboa-equity.jpeg" width="100px" /></a>
                         </div><br>
                         <div class="col-md-2 img-small" id="kicd">
-                            <img src="assets/img/img/yboa-kicd.jpeg " width="200px " height="15%" />
+                            <a href="https://kicd.ac.ke/" target="_blank">
+                                <img src="assets/img/img/yboa-kicd.jpeg " width="200px " height="15%" /></a>
                         </div>
                     </div>
                 </ul>
@@ -235,7 +248,7 @@
             </div>
         </div>
     </div>
-    <div class="section section-testimonial">
+    <div class="section section-testimonial" id="testimonial-part">
         <div class="container">
             <h4 class="header-text text-center">What people think</h4>
             <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
@@ -297,86 +310,112 @@
             </div>
         </div>
     </div>
-    <!-- contact -->
-    <div class="container-contact100 reach " id="contact-part ">
+    <div class="container-fluid row reach">
+        <!-- contact -->
+        <div class="col-md-6 style-contact container">
+            <div class="container-contact100 reach" id="contact-part ">
 
-        <div class="wrap-contact100 ">
-            <form class="contact100-form validate-form ">
-                <span class="contact100-form-title ">
+                <div class="wrap-contact100 ">
+                    <form class="contact100-form validate-form ">
+                        <span class="contact100-form-title ">
 Send Us A Message
 </span>
 
-                <div class="wrap-input100 validate-input " data-validate="Please enter your name ">
-                    <input class="input100 " type="text " name="name " placeholder="Full Name ">
-                    <span class="focus-input100 "></span>
-                </div>
+                        <div class="wrap-input100 validate-input " data-validate="Please enter your name ">
+                            <input class="input100 " type="text " name="name " placeholder="Full Name ">
+                            <span class="focus-input100 "></span>
+                        </div>
 
-                <div class="wrap-input100 validate-input " data-validate="Please enter your email: e@a.x ">
-                    <input class="input100 " type="text " name="email " placeholder="E-mail ">
-                    <span class="focus-input100 "></span>
-                </div>
+                        <div class="wrap-input100 validate-input " data-validate="Please enter your email: e@a.x ">
+                            <input class="input100 " type="text " name="email " placeholder="E-mail ">
+                            <span class="focus-input100 "></span>
+                        </div>
 
-                <div class="wrap-input100 validate-input " data-validate="Please enter your phone ">
-                    <input class="input100 " type="text " name="phone " placeholder="Phone ">
-                    <span class="focus-input100 "></span>
-                </div>
+                        <div class="wrap-input100 validate-input " data-validate="Please enter your phone ">
+                            <input class="input100 " type="text " name="phone " placeholder="Phone ">
+                            <span class="focus-input100 "></span>
+                        </div>
 
-                <div class="wrap-input100 validate-input " data-validate="Please enter your message ">
-                    <textarea class="input100 " name="message " placeholder="Your Message "></textarea>
-                    <span class="focus-input100 "></span>
-                </div>
+                        <div class="wrap-input100 validate-input " data-validate="Please enter your message ">
+                            <textarea class="input100 " name="message " placeholder="Your Message "></textarea>
+                            <span class="focus-input100 "></span>
+                        </div>
 
-                <div class="container-contact100-form-btn ">
-                    <button class="contact100-form-btn ">
+                        <div class="container-contact100-form-btn ">
+                            <button class="contact100-form-btn ">
 <span>
     <i class="fa fa-paper-plane-o m-r-6 " aria-hidden="true "></i>
     Send
 </span>
 </button>
+                        </div>
+                    </form>
                 </div>
-            </form>
+                <!-- </div> -->
+
+
+
+                <div id="dropDownSelect1 "></div>
+
+            </div>
         </div>
-        <!-- </div> -->
 
+        <!-- FAQ -->
+        <div class="col-md-6 container" id="FAQ">
+            <div class="footer " id="footer-part ">
+                <div class="container-fluid ">
 
+                    <h2 class="text text-center ">Frequently Asked Questions</h2><br>
+                    <div class="FAQ ">
+                        <button class="accordion ">Who qualifies to be a yboa member?</button>
+                        <div class="panel ">
+                            <p>Any person of age 18-35yrs or has transited.</p>
+                        </div><br><br>
 
-        <div id="dropDownSelect1 "></div>
+                        <button class="accordion ">What is the relationship between yboa and AGPO?</button>
+                        <div class="panel ">
+                            <p> It's good to note govt does not deal with firms or individuals when it comes to lobbying hence the need for yboa to lobby for contracts in govt and any other place they may be available.
+                            </p>
+                        </div><br><br>
 
-    </div>
-    <div class="footer " id="footer-part ">
-        <div class="container ">
+                        <button class="accordion ">Where do I get the markets, procuring entities?</button>
+                        <div class="panel ">
+                            <p>ANSWER HERE!</p>
+                        </div>
+                        <div class="social-area text-center ">
+                            <a class="btn btn-social btn-facebook btn-simple " href="https://www.facebook.com/groups/211767715563539 ">
+                                <i class="fa fa-facebook-square "></i>
+                            </a>
+                            <a class="btn btn-social btn-twitter btn-simple " href="https://twitter.com/testmiller33?lang=enhttps://twitter.com/testmiller33?lang=en ">
+                                <i class="fa fa-twitter "></i>
+                            </a>
 
-            <h2 class="text text-center ">Frequently Asked Questions</h2><br>
-            <div class="FAQ ">
-                <button class="accordion ">Who qualifies to be a yboa member?</button>
-                <div class="panel ">
-                    <p>Any person of age 18-35yrs or has transited.</p>
-                </div><br><br>
-
-                <button class="accordion ">What is the relationship between yboa and AGPO?</button>
-                <div class="panel ">
-                    <p> It's good to note govt does not deal with firms or individuals when it comes to lobbying hence the need for yboa to lobby for contracts in govt and any other place they may be available.
-                    </p>
-                </div><br><br>
-
-                <button class="accordion ">Where do I get the markets, procuring entities?</button>
-                <div class="panel ">
-                    <p>ANSWER HERE!</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="container text text-center">
+            <h3>Get more info</h3>
+            <div class="container-fluid " id="info">
                 <div class="social-area text-center ">
-                    <a class="btn btn-social btn-facebook btn-simple " href="https://www.facebook.com/groups/211767715563539 ">
-                        <i class="fa fa-facebook-square "></i>
-                    </a>
-                    <a class="btn btn-social btn-twitter btn-simple " href="https://twitter.com/testmiller33?lang=enhttps://twitter.com/testmiller33?lang=en ">
-                        <i class="fa fa-twitter "></i>
+                    <a class="btn btn-social   btn-simple" href="https://www.facebook.com/groups/211767715563539 ">
+                        <i class="fa fa-facebook-square" style="color: black;"><br>facebook</i>
+                    </a><br>
+                    <a class="btn btn-social btn-simple" href="https://twitter.com/testmiller33?lang=enhttps://twitter.com/testmiller33?lang=en ">
+                        <i class="fa fa-twitter" style="color: black;"><br>twitter</i>
+                    </a><br>
+                    <a class="btn btn-social btn-simple " href="https://twitter.com/testmiller33?lang=enhttps://twitter.com/testmiller33?lang=en ">
+                        <i class="fa fa-phone " style="color: black;"><br>+254712345678</i>
                     </a>
 
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
+
+    </div>
 </body>
 <!--===============================================================================================-->
 <script src="vendor/jquery/jquery-3.2.1.min.js "></script>
