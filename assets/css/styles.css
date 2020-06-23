@@ -1,4 +1,4 @@
-    .text {
+        .text {
         color: black;
     }
     
@@ -245,9 +245,36 @@
         margin-top: -40px;
         margin-left: 10px;
     }
+    
+    .img-modifier {
+        width: 10px;
+        height: 20px;
+        margin-right: 200%;
+    }
+    
+    #p1 {
+        padding-left: 20px;
+    }
+    
+    #p2 {
+        top: -20px;
+        padding-left: 20px;
+    }
+    
+    #p3 {
+        top: -40px;
+    }
+    
+    #p4 {
+        top: -40px;
+    }
+    
+    .push-up-img {
+        padding-top: -50px;
+    }
     /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
 */
     
     @media (min-width: 320px) and (max-width: 480px) {
@@ -263,20 +290,40 @@
             margin-top: -40px;
             margin-left: 10px;
         }
-    }
-    
-    @media (min-width: 481px) and (max-width: 768px) {
-        .no-show {
+        #p1 {
+            padding: 10px;
+        }
+        #p2 {
+            padding: 10px;
+        }
+        /* TO BE REMOVED IN ACTUALLISATION */
+        #p3 {
             display: none;
+            /* }UPTO HERE */
         }
-        #equity {
-            margin-top: 0px;
-            text-align: center;
-            margin-bottom: 20px;
+        @media (min-width: 481px) and (max-width: 768px) {
+            .no-show {
+                display: none;
+            }
+            #equity {
+                margin-top: 0px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            #kicd {
+                margin-top: 0px;
+                text-align: center;
+                margin-left: 250px;
+            }
+            #p1 {
+                padding: 10px;
+            }
+            #p2 {
+                padding: 10px;
+            }
+            /* TO BE REMOVED IN ACTUALLISATION */
+            #p3 {
+                display: none;
+                /* }UPTO HERE */
+            }
         }
-        #kicd {
-            margin-top: 0px;
-            text-align: center;
-            margin-left: 250px;
-        }
-    }
