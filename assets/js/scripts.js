@@ -69,7 +69,70 @@ $("#show7").click(function() {
     $("#hover7").show();
     $("#hover7").css("color", "red");
 });
+$("#hover8").click(function() {
+    $("#show8").show();
+    $("#hover8").hide();
+    $("#show8").css("color", "black");
+});
+$("#show8").click(function() {
+    $("#show8").hide();
+    $("#hover8").show();
+    $("#hover8").css("color", "red");
+});
+$("#hover9").click(function() {
+    $("#show9").show();
+    $("#hover9").hide();
+    $("#show9").css("color", "black");
+});
+$("#show9").click(function() {
+    $("#show9").hide();
+    $("#hover9").show();
+    $("#hover9").css("color", "red");
+});
+$("#hover10").click(function() {
+    $("#show10").show();
+    $("#hover10").hide();
+    $("#show10").css("color", "black");
+});
+$("#show10").click(function() {
+    $("#show10").hide();
+    $("#hover10").show();
+    $("#hover10").css("color", "red");
+});
+$("#hover11").click(function() {
+    $("#show11").show();
+    $("#hover11").hide();
+    $("#show11").css("color", "black");
+});
+$("#show11").click(function() {
+    $("#show11").hide();
+    $("#hover11").show();
+    $("#hover11").css("color", "red");
+});
+$("#hover12").click(function() {
+    $("#show12").show();
+    $("#hover12").hide();
+    $("#show12").css("color", "black");
+});
+$("#show12").click(function() {
+    $("#show12").hide();
+    $("#hover12").show();
+    $("#hover12").css("color", "red");
+});
+$("#hover13").click(function() {
+    $("#show13").show();
+    $("#hover13").hide();
+    $("#show13").css("color", "black");
+});
+$("#show13").click(function() {
+    $("#show13").hide();
+    $("#hover13").show();
+    $("#hover13").css("color", "red");
+});
 // here
+// Carousel hover popup
+
+// end of carousel hover popup
 var slideIndex = 0;
 showSlides();
 
