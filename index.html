@@ -45,17 +45,17 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-transparent navbar-top" role="navigation">
+    <nav class="navbar navbar-transparent navbar-top no-shows" role="navigation">
 
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar bar1"></span>
-        <span class="icon-bar bar2"></span>
-        <span class="icon-bar bar3"></span>
-        </button>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </button>
                 <a href="http://www.yboa.co.ke">
                     <div class="logo-container">
                         <div class="logo">
@@ -76,12 +76,22 @@
             <!-- /.navbar-collapse -->
         </div>
     </nav>
-    <div class="wrapper " id="about-part">
+    <div class="wrapper" id="about-part">
         <div class="parallax filter-gradient blue " data-color="blue ">
+
             <div class="parallax-background ">
                 <img class="parallax-background-image " src="assets/img/img/backmountain.jpg ">
             </div>
             <div class="container ">
+                <div class="row biggest" >
+                    <a href="http://www.yboa.co.ke">
+                        <div class="logo-container">
+                            <div class="logo">
+                                <img src="assets/img/img/logo.jpeg" alt="YBOA">
+                            </div>
+                        </div>
+                    </a>
+                </div>
                 <div class="row ">
                     <div class="col-md-6 hidden-xs pull-down">
                         <div id="description-carousel" class="carousel fade" data-ride="carousel">
@@ -115,20 +125,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="buttons ">
-                    <ul class="nav navbar-nav navbar-light">
-                        <li>
-                            <a href=" https://www.facebook.com/groups/211767715563539 ">
-                                <i class="fa fa-facebook-square "></i> Like
+                <div class="buttons">
+                    <ul class="nav navbar-nav navbar-light no-shows">
+                        <li class="social-icon">
+                            <a href=" https://www.facebook.com/groups/211767715563539" style="font-size: 25px; color: black;" >
+                                <i class="fa fa-facebook-square"></i><span style="font-size: 20px;">Like</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://twitter.com/testmiller33?lang=en">
-                                <i class="fa fa-twitter "></i> Tweet
+                        <li >
+                            <a href="https://twitter.com/testmiller33?lang=en" style="font-size: 25px; color: black;" >
+                                <i class="fa fa-twitter social-icon"></i><span style="font-size: 20px;">Tweet</span>
                             </a>
                         </li>
                     </ul>
                 </div>
+                <span>
+                    <span style="float: left;">
+                        <a href="register/register.html" class="btn btn-success btn-lg btn-fill register">Sign Up</a></span>
+                    <span style="float: right;">
+                        <a href="site/examples/pages/login.html" class="btn btn-warning btn-lg btn-fill login">Login</a>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                    </span>
+                </span>
+
             </div>
         </div>
     </div>
@@ -170,7 +189,7 @@
         </div>
     </div><br>
     <div class=" container border" id="course-part">
-        <h4 class="header-text text-center ">Our Course</h4>
+        <h4 class="header-text text-center" style="padding-top: 20px;">Our Course</h4>
         <!-- try out modal -->
 
         <!-- Trigger the modal with a button -->
@@ -828,8 +847,8 @@
                     <div class="wrap-contact100 ">
                         <form class="contact100-form validate-form ">
                             <span class="contact100-form-title ">
-Send Us A Message
-</span>
+                            Send Us A Message
+                            </span>
 
                             <div class="wrap-input100 validate-input " data-validate="Please enter your name ">
                                 <input class="input100 " type="text " name="name " placeholder="Full Name ">

@@ -17,6 +17,7 @@
                                 border-color: skyblue;
                                 padding: 15px;
                                 border-radius: 8px;
+                                min-width: 300px;
                             }
                             .text {
                                 color: black;
@@ -107,13 +108,6 @@
                                 .text {
                                     font-size: 11px
                                 }
-                            }
-                            
-                            @media only screen and (max-width: 992px) {
-                                .sidenav{
-                                    display: none;
-                                }
-                                
                             }
                             /* sidebar */
                             
@@ -397,6 +391,9 @@
 */
                             
                             @media (min-width: 320px) and (max-width: 480px) {
+                                .no-shows {
+                                    display: none;
+                                }
                                 .no-show {
                                     display: none;
                                 }
@@ -421,6 +418,9 @@
                                     /* }UPTO HERE */
                                 }
                                 @media (min-width: 481px) and (max-width: 768px) {
+                                    .biggest{
+                                        display: none;
+                                    }
                                     .no-show {
                                         display: none;
                                     }
@@ -446,3 +446,29 @@
                                         /* }UPTO HERE */
                                     }
                                 }
+
+                            .social-icon{
+                                font-size: 40px;
+
+                            }
+                            
+                            @media only screen and (max-width: 992px) {
+                                .sidenav{
+                                    display: none;
+                                }
+                                
+                            }
+
+                            @media (min-width: 481){
+                                .biggest{
+                                    display: none !important;
+                                }
+                                
+                            }
+
+                            @media only screen and (min-width: 320) and (max-width:480px){
+                                .biggest{
+                                    display: block;
+                                }
+                                
+                            }
